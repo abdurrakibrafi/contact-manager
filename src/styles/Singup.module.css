@@ -1,0 +1,129 @@
+.loginmain {
+  margin: 0;
+  padding: 40px;
+  background-color: rgb(211, 208, 208);
+  font-family: "Arial";
+  height: 120vh;
+}
+.signpic {
+  width: 350px;
+  margin-left: -50px;
+}
+.inputSign {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.login {
+  margin: auto;
+  display: flex;
+  width: 865px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding: 90px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: -15px -10px 36px -12px rgba(0, 0, 0, 0.42);
+}
+h4 {
+  text-align: center;
+  color: #277582;
+  font-size: 1.2rem;
+}
+label {
+  color: #277582;
+  font-size: 17px;
+}
+.Uname {
+  width: 310px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(211, 208, 208);
+  padding-left: 8px;
+}
+.Pass {
+  width: 310px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(211, 208, 208);
+  padding-left: 8px;
+}
+.log {
+  width: 310px;
+  height: 35px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: rgb(240, 236, 236);
+  background-color: #277582;
+  font-weight: bold;
+}
+.log:hover {
+  background-color: rgb(211, 208, 208);
+  color: #277582;
+}
+span {
+  color: white;
+  font-size: 17px;
+}
+a {
+  color: #277582;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.accountCraete {
+  text-align: center;
+  align-items: center;
+}
+
+.vl {
+  border-left: 5px solid #277582;
+  height: 400px;
+}
+@media screen and (max-width: 970px) {
+  .login {
+    display: flex;
+    width: 265px;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .signpic {
+    width: 150px;
+    margin-left: -30px;
+  }
+  .vl {
+    display: none;
+  }
+
+  .Uname {
+    width: 210px;
+    height: 35px;
+  }
+  .Pass {
+    width: 210px;
+    height: 35px;
+  }
+  .log {
+    width: 210px;
+    height: 35px;
+  }
+  .inputSign {
+    margin-left: -60px;
+  }
+  .accountCraete {
+    padding-left: 55px;
+    font-size: 12px;
+  }
+  .loginmain {
+    height: 131vh;
+  }
+  h4 {
+    padding-left: 55px;
+    font-size: 15px;
+  }
+}

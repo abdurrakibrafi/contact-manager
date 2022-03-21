@@ -1,0 +1,104 @@
+.loginmain {
+  margin: 0;
+  padding: 40px;
+  background-color: rgb(211, 208, 208);
+  font-family: "Arial";
+  height: 108vh;
+}
+.login {
+  width: 445px;
+  overflow: hidden;
+  margin: auto;
+  padding-top: 50px;
+  padding: 80px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: -15px -10px 36px -12px rgba(0, 0, 0, 0.42);
+}
+h3 {
+  text-align: center;
+  color: #277582;
+  font-size: 1.5rem;
+}
+label {
+  color: #277582;
+  font-size: 17px;
+}
+.Uname {
+  width: 285px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(211, 208, 208);
+  padding-left: 8px;
+}
+.pass {
+  width: 285px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(211, 208, 208);
+  padding-left: 8px;
+}
+.log {
+  width: 285px;
+  height: 35px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: rgb(240, 236, 236);
+  background-color: #277582;
+  font-weight: bold;
+}
+.log:hover {
+  background-color: rgb(211, 208, 208);
+  color: #277582;
+}
+span {
+  color: white;
+  font-size: 17px;
+}
+a {
+  color: #277582;
+  text-decoration: none;
+}
+.accountCraete {
+  text-align: center;
+  align-items: center;
+}
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 790px) {
+  .login {
+    width: 242px;
+    margin: 30 0 0 450px;
+    padding: 20px;
+  }
+  .loginmain {
+    padding-top: 40px;
+    height: 100vh;
+  }
+  .pass {
+    width: 200px;
+    height: 35px;
+  }
+  .Uname {
+    width: 200px;
+    height: 35px;
+  }
+  .log {
+    width: 200px;
+    height: 35px;
+  }
+  .avatar {
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 60px;
+    padding: 10px;
+  }
+}

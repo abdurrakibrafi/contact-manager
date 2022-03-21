@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--fontPrimary);
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: rgb(211, 208, 208);
+}
+.contact-img {
+  width: 170px;
+  height: 200px;
+  border-radius: 50%;
+}
+.bttn {
+  background-color: #277582;
+  color: white;
+}
+.shadoww {
+  box-shadow: 3px -3px 29px -6px rgba(3, 3, 3, 0.575);
+}
